@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE msw>
+
+<Settings>
+  <DefaultDirectory>
+    <Open>C:\Users\Dylan\Downloads</Open>
+    <AutoSave>C:\Users\Dylan\Desktop</AutoSave>
+    <VisaCommand>C:/Program Files/Australia Post/VisaTLMS/VisaCommand.exe</VisaCommand>
+  </DefaultDirectory>
+  <AutoSave>
+    <Enabled>True</Enabled>
+    <ManifestName>PrintPost Manifest</ManifestName>
+    <LabelPlanName>LabelPlan</LabelPlanName>
+    <ExportListName>ExportList</ExportListName>
+  </AutoSave>
+</Settings>

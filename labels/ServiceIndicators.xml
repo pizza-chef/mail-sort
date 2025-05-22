@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<PrintPost>
+        <Residue>
+            <Type>5</Type>
+            <Priority>G</Priority>
+            <Regular>H</Regular>
+        </Residue>
+        <Area>
+            <Type>4</Type>
+            <Priority>1</Priority>
+            <Regular>R</Regular>
+        </Area>
+        <Postcode>
+            <Type>3</Type>
+            <Priority>1</Priority>
+            <Regular>R</Regular>
+        </Postcode>
+</PrintPost>

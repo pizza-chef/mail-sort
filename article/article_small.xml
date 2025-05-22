@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE xml>
+
+<SmallArticle>
+  <Expiry>01/10/24</Expiry>
+  <Requirements>
+    <MaxWeight>125</MaxWeight>
+    <MaxSize units="mm">
+      <Width>130</Width>
+      <Length>240</Length>
+    </MaxSize>
+  </Requirements>
+  <Pricing>
+    <Priority>
+      <Residue>
+        <S0-125>
+          <SameState>1.330</SameState>
+          <OtherState>1.375</OtherState>
+        </S0-125>
+      </Residue>
+    </Priority>
+    <Regular>
+      <Residue>
+        <S0-125>
+          <SameState>1.210</SameState>
+          <OtherState>1.250</OtherState>
+        </S0-125>
+      </Residue>
+    </Regular>
+  </Pricing>
+</SmallArticle>

@@ -1,0 +1,323 @@
+* {
+	background-color: white;
+}
+
+
+
+
+/*
+    Styles for the side menu
+*/
+
+
+QPushButton[objectName^='menu'] {
+    padding: 10px;
+	border: none;
+	text-align: left;
+	font-size: 18px;
+	padding-left: 15px;
+	
+}
+
+QPushButton[objectName^='menu']:hover {
+    font-weight: bold;
+    background-color: rgb(247,247,247);
+}
+
+QFrame#menuFrame, QPushButton[objectName^='menu'] {
+	background-color: rgb(252,252,252);
+}
+
+
+/*
+	Styles for launch page
+*/
+
+
+QPushButton[objectName^='launchBtn'] {
+    border: none;
+	text-align: left;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 6px;
+}
+
+QPushButton[objectName^='launchBtn']:hover {
+	background: rgba(135, 206, 250, 0.3);
+}
+
+
+QLabel#launchLabelTitle {
+	font-size: 32px;
+	font-family: "Courier New", "Monaco", serif;
+	font-weight: bold;
+}
+
+QLabel#launchLabelSubtitleRecent {
+	font-size: 15px;
+	font-weight: bold;
+	padding-top: 6px;
+}
+
+QLabel#launchLabelVersion {
+   font-size: 15px;
+   color: gray;
+}
+
+/*
+	Styles for home page with no imports
+*/
+
+QPushButton#contentBtnImportList {
+	font-size: 30px;
+	padding: 10px;
+	
+}
+
+/*
+	Styles for importing a file
+*/
+
+QPushButton#contentBtnCancelImport, QPushButton#contentBtnConfirmImport {
+	padding: 5px 10px 5px 10px;
+}
+
+QPushButton#contentBtnBrowseMailFile {
+	padding: 5px;
+}
+
+QLabel#headerLabelSourceFile {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+QLabel[objectName^='subheaderLabel']{
+	text-align: center;
+	
+}
+
+#contentLabelRecordsRead {
+	font-weight: bold;
+}
+
+#scrollArea {
+	border: none;
+}
+
+#contentLabel {
+	max-width: 200px;
+}
+
+#importTableTitle, #headerLabelAddressConfirmation {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#contentCheckBox {
+	padding-left: 40px;
+}
+
+#contentLineEdit {
+	max-width: 200px;
+	margin-right: 60px;
+}
+
+/*
+	Sryles for viewing a particular file
+*/
+
+QLabel[objectName^="workspaceLabel"] {
+	font-weight:bold;
+	font-size: 17px;
+}
+
+QLabel[objectName^="fieldLabel"] {
+	font-weight:bold;
+}
+
+QLabel[objectName^="warnings"] {
+	font-size: 14px;
+}
+
+#warningsScrollBox, #listTableWidget, #labelPlanTableWidget {
+	border: none;
+}
+
+/*
+	Styles for sort page
+*/
+QLabel[objectName^='sortLabel'] {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#sortFrame {
+	padding: 10px;
+}
+
+#contentBtnSort, #contentBtnLabels, #contentBtnPrintLabels {
+	padding: 5px;
+}	
+
+QLineEdit[objectName^='sortLineEdit'], QComboBox[objectName^='sortComboBox'] {
+	margin-bottom: 10px;
+	padding: 3px;
+}
+
+QLabel[objectName^='sortTitleLabel'] {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#priceTableTitles {
+	font-weight: bold;
+}
+
+/*
+	Export page styles
+*/
+
+#contentBtnExport {
+	padding: 5px 10px 5px 10px;
+	margin: 10px;
+	margin-top: 4px;
+}
+
+#exportedListTableWidget {
+	border: none;
+}
+
+
+/*
+	Labels page styles
+*/
+QLabel[objectName^="labelsSubtitle"] {
+	font-weight:bold;
+}
+
+QLabel[objectName^="labelsTitle"] {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/*
+	Settings styles
+*/
+
+
+#contentBtnSaveSettings {
+	width: 238px;
+}
+
+/*
+	Common styles across different pages
+*/
+
+QPushButton[objectName^='contentBtn'] {
+	border: 1px solid black;
+	border-bottom: 3px solid black;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+QPushButton[objectName^='contentBtn']:hover, QMessageBox QPushButton:hover {
+	background-color: rgb(247,247,247);
+	border-bottom: 1px solid black;
+}
+
+QLineEdit {
+	border-radius: 3px;
+	border: 1px solid black;
+	padding: 1px;
+}
+
+QLineEdit:hover, QLineEdit:focus {
+	background-color: rgb(247,247,247);
+}
+
+QLabel[objectName^='subheaderLabel'] {
+	font-weight: bold;
+}
+
+
+QMessageBox QPushButton {
+	border: 1px solid black;
+	border-bottom: 3px solid black;
+	border-radius: 3px;
+	padding: 3px;
+	width: 40px;
+}
+
+QScrollBar {
+	width: 10px;
+	border:none;
+}
+
+/*  For the actual scrolling bar */
+QScrollBar::handle:vertical {	
+	background-color: rgb(227,227,227);
+	border-radius: 5px;
+	min-height: 25px;
+}
+QScrollBar::handle:vertical:hover{	
+	background-color: rgb(217,217,217);
+}
+QScrollBar::handle:vertical:pressed {	
+	background-color: rgb(207,207,207);
+}
+
+QScrollBar::sub-line:vertical {
+   border:none;
+}
+
+QScrollBar::add-line:vertical {       
+    border: none;
+}
+
+/*
+	Combo Box styles
+*/
+QComboBox {
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+
+
+QComboBox:hover {
+	background-color: rgb(247,247,247);
+}
+
+QComboBox::drop-down {
+	border: none;
+}
+
+QComboBox::down-arrow {
+	image: url(%path%/down_arrow.png);
+	height: 20px;
+	width: 20px;
+	padding-right: 5px;
+}
+
+QComboBox::down-arrow:on { /* shift the arrow when popup is open */
+	image: url(%path%/right_arrow.png);
+
+}
+
+#dialogBox {
+	border: none;
+	background-color: transparent;
+}
+
+#dialogLabel {
+	background: transparent;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+}
+
+#dialogFrame {
+	background: rgba(0, 191, 255, 0.7);
+	border-radius: 13px;
+}
+
